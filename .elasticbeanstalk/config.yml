@@ -1,0 +1,19 @@
+branch-defaults:
+  development:
+    environment: test-4-env
+environment-defaults:
+  test-1-env:
+    branch: null
+    repository: null
+global:
+  application_name: test-4
+  default_ec2_keyname: null
+  default_platform: Docker running on 64bit Amazon Linux 2023
+  default_region: sa-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
